@@ -1,7 +1,7 @@
 import string
 from PIL import Image, ImageDraw
-lower = string.ascii_lowercase
-upper = string.ascii_uppercase
+lower = string.ascii_lowercase # Sring of lower case characters
+upper = string.ascii_uppercase # Sring of Upper case characters
 for i in lower:
     for j in lower:
         img = Image.new('RGB', (100, 30), color = (255, 255, 255))
